@@ -272,6 +272,29 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      {/* BUY NOW */}
+<div style={{ textAlign: "center", margin: "80px 0" }}>
+  <a
+    href="https://buy.stripe.com/test_4gM28qgTf0ZoeAu2BbgQE00"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button
+      style={{
+        padding: "18px 36px",
+        fontSize: "20px",
+        fontWeight: "bold",
+        backgroundColor: "#111",
+        color: "#fff",
+        border: "2px solid #fff",
+        borderRadius: "10px",
+        cursor: "pointer",
+      }}
+    >
+      BUY NOW
+    </button>
+  </a>
+</div>
     </main>
   );
 }
