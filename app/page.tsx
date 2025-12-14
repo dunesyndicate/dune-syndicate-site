@@ -358,17 +358,6 @@ export default function Home() {
     </main>
   );
 }
-EOF
 
 CTRL + D
-git add app/page.tsx public/images
-git commit -m "Official Dune Syndicate drop site"
-git push
-pwd
-ls
-git remote -v
-git branch --show-current
-pwd
-ls
 
-echo TEST
