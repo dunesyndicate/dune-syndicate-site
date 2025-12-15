@@ -39,8 +39,6 @@ export default function Home() {
 >
 
       {/* Top bar */}
-      <header>
-      {/* Top bar */}
       <header
         style={{
           position: "sticky",
