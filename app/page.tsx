@@ -26,11 +26,12 @@ const gallery = [
 
 export default function Home() {
   return (
-    <main
+   <main
   style={{
     minHeight: "100vh",
     color: "#f5f5f5",
-    backgroundImage: "url('/images/dunes.jpg')",
+backgroundImage: "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)), url('/images/dunes.jpg')",
+
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
