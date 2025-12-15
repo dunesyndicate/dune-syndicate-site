@@ -26,7 +26,20 @@ const gallery = [
 
 export default function Home() {
   return (
-    <main style={{ minHeight: "100vh", background: "#0b0b0b", color: "#f5f5f5" }}>
+    <main
+  style={{
+    minHeight: "100vh",
+    color: "#f5f5f5",
+    backgroundImage: "url('/images/dunes.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundAttachment: "fixed",
+  }}
+>
+
+      {/* Top bar */}
+      <header>
       {/* Top bar */}
       <header
         style={{
@@ -118,7 +131,7 @@ export default function Home() {
                     justifyContent: "center",
                     padding: "0.95rem 1.1rem",
                     borderRadius: 14,
-                    background: "#f5f5f5",
+                    background: "#transparent",
                     color: "#0b0b0b",
                     textDecoration: "none",
                     fontWeight: 900,
